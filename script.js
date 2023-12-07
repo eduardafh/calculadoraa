@@ -1,8 +1,8 @@
-function adicionarResult(value){
+function adicionarResult(value) {
   document.getElementById('result').value += value;
 }
 
-function calcular(){
+function calcular() {
   let result = document.getElementById('result');
 
   let display = document.getElementById('display');
@@ -10,6 +10,12 @@ function calcular(){
   result.value = eval(result.value);
 }
 
-function limpar(){
+function limpar() {
   document.getElementById('result').value = "";
 }
+document.addEventListener("keypress", (e) => {
+  if (e.key == "1") {
+    insert("1");
+  }
+}
+)
