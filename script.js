@@ -13,9 +13,63 @@ function calcular() {
 function limpar() {
   document.getElementById('result').value = "";
 }
+
 document.addEventListener("keypress", (e) => {
   if (e.key == "1") {
-    insert("1");
+    adicionarResult("1");
   }
-}
-)
+  else if (e.key == "2") {
+    adicionarResult("2");
+  }
+  else if (e.key == "3") {
+    adicionarResult("3");
+  }
+  else if (e.key == "4") {
+    adicionarResult("4");
+  }
+  else if (e.key == "5") {
+    adicionarResult("5");
+  }
+  else if (e.key == "6") {
+    adicionarResult("6");
+  }
+  else if (e.key == "7") {
+    adicionarResult("7");
+  }
+  else if (e.key == "8") {
+    adicionarResult("8");
+  }
+  else if (e.key == "9") {
+    adicionarResult("9");
+  }
+  else if (e.key == "0") {
+    adicionarResult("0");
+  }
+  else if (e.key == "-") {
+    adicionarResult("-");
+  }
+  else if (e.key == "+") {
+    adicionarResult("+");
+  }
+  else if (e.key == "*") {
+    adicionarResult("*");
+  }
+  else if (e.key == "/") {
+    adicionarResult("/");
+  }
+  else if (e.key == ",") {
+    adicionarResult(",");
+  }
+  else if (e.key == "%") {
+    adicionarResult("%");
+  }
+  else if (e.key == "0") {
+    adicionarResult("0");
+  }
+  else if (e.key == ";") {
+    adicionarResult(";");
+  }
+  else if (e.key == "0") {
+    adicionarResult("0");
+  }
+})
